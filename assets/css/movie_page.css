@@ -1,0 +1,48 @@
+.main__block{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    gap: 20px;
+}
+.movie__upper{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.movie__description{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.movie__upper h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.movie__upper h3{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.movie__upper h2{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.movie__description a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 30px;
+    font-size: 1.7rem;
+    width: 150px;
+    padding: 10px 0;
+}
+.movie__lower{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

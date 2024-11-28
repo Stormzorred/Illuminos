@@ -1,0 +1,51 @@
+.main__block{
+    padding: 3%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+form h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 2rem;
+    gap: 10px;
+}
+form fieldset{
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+form legend{
+    color: #fff;
+    font-size: 2rem;
+}
+form input{
+    outline: none;
+    padding: 5px 10px;
+    font-family: Archivo Narrow;
+    font-size: 1.5rem;
+}
+.checkbox{
+    display: flex;
+    color: #fff;
+    font-size: 1.5rem;
+    gap: 10px;
+}
+form button{
+    font-family: Archivo Narrow;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+.auth__text{
+    display: flex;
+    color: #fff;
+    font-size: 1.5rem;
+    gap: 10px;
+}
+.auth__text a{
+    color: #fff;
+}

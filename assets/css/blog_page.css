@@ -1,0 +1,32 @@
+/*-----------*/
+/*Main*/
+/*-----------*/
+
+.main__block{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    gap: 20px;
+}
+.main__block h1{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.main__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 30px;
+}
+.main__item{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #2F2F2F;
+}
+.main__item h2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.6rem;
+}

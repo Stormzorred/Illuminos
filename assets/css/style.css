@@ -1,0 +1,211 @@
+/*-----------*/
+/*Main*/
+/*-----------*/
+
+.main__block{
+    background: url(../img/Homepage/hero.png) center center / cover no-repeat;
+    padding: 13% 6%;
+}
+.main__block h1{
+    color: #fff;
+    font-size: 7rem;
+    font-weight: 600;
+}
+.main__block h2{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#main__button{
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+/*-----------*/
+/*Search*/
+/*-----------*/
+
+.search{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 3%;
+}
+#search__box{
+    border: 1px solid #fff;
+    background: transparent;
+    font-family: Archivo Narrow;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    outline: none;
+    padding: 0.5% 0;
+}
+.filters{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.filters h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.filters button{
+    background: transparent;
+    border: 1px solid #fff;
+    font-family: Archivo Narrow;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5%;
+    cursor: pointer;
+}
+
+/*-----------*/
+/*Popular movies*/
+/*-----------*/
+
+.popular__movies{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    gap: 50px;
+}
+.popular__movies_items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.popular__movies_item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.popular__movies h1{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.popular__movies_item h2{
+    font-weight: 500;
+    color: #fff;
+    font-size: 2rem;
+}
+.popular__movies_item h3{
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/*-----------*/
+/*Recommendations*/
+/*-----------*/
+
+.recommendations{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    gap: 50px;
+}
+.recommendations__items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.recommendations__item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.recommendations h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.recommendations__item h2{
+    font-weight: 500;
+    color: #fff;
+    font-size: 2rem;
+}
+.recommendations__item h3{
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/*-----------*/
+/*Advantages*/
+/*-----------*/
+
+.advantages{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    gap: 70px;
+}
+.advantages__items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.advantages__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 17rem;
+}
+.advantages h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.advantages__item h2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+.advantages__item h3{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/*-----------*/
+/*Popular*/
+/*-----------*/
+
+.popular{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    gap: 50px;
+}
+.popular__items{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.popular__item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.popular h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.popular__item h2{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+}
